@@ -1,0 +1,939 @@
+local args = {
+
+    [1] = "\240\159\153\131@Y_L_PW \216\172\217\138\216\170 \216\167\217\134\216\167",
+
+    [2] = "All"
+
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+
+    [1] = "\240\159\153\131\216\159\216\168\216\174\217\138\216\177 \216\180\217\132\217\136\217\134\217\131",
+
+    [2] = "All"
+
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Commander", HidePremium = false, IntroText = "Commander", SaveConfig = true, ConfigFolder = "Hi_New"})
+
+--[[
+
+Name = - The name of the UI.
+
+HidePremium = - Whether or not the user details shows Premium status or not.
+
+SaveConfig = - Toggles the config saving in the UI.
+
+ConfigFolder = - The name of the folder where the configs are saved.
+
+IntroEnabled = - Whether or not to show the intro animation.
+
+IntroText = - Text to show in the intro animation.
+
+IntroIcon = - URL to the image you want to use in the intro animation.
+
+Icon = - URL to the image you want displayed on the window.
+
+CloseCallback = - Function to execute when the window is closed.
+
+]]
+
+OrionLib:MakeNotification({
+
+	Name = "!منور",	Content = "@Y_L_PW المطور تليجرام",
+
+	Image = "rbxassetid://4483345998",
+
+	Time = 10
+
+})
+
+--[[
+
+Title = - The title of the notification.
+
+Content = - The content of the notification.
+
+Image = - The icon of the notification.
+
+Time = - The duration of the notfication.
+
+]]
+
+local yTab = Window:MakeTab({
+
+	Name = "❤يحبهم قلبك اللي من",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+--[[
+
+Name = - The name of the tab.
+
+Icon = - The icon of the tab.
+
+PremiumOnly = - Makes the tab accessible to Sirus Premium users only.
+
+]]
+
+yTab:AddButton({
+
+	Name = "🕊طيران",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/2xcLe8Ea"))()
+
+	end 
+
+})
+
+--[[
+
+Name = - The name of the button.
+
+Callback = - The function of the button.
+
+]]
+
+yTab:AddButton({
+
+	Name = "👾تنقل",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/DagerFild/b4776075a0d26ef04394133ee6bd2081/raw/0ed51ac94057d2d9a9f00e1b037b9011c76ca54a/tpGUI", true))()
+
+	end 
+
+})
+
+--[[
+
+Name = - The name of the button.
+
+Callback = - The function of the button.
+
+]]
+
+yTab:AddButton({
+
+	Name = "👀الناس مراقبه",
+
+	Callback = function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/wyvdb7gr'))()
+
+	end 
+
+})
+
+--[[
+
+Name = - The name of the button.
+
+Callback = - The function of the button.
+
+]]
+
+yTab:AddButton({
+
+	Name = "⚡سرعه سكربت",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/0m52kRnj"))() 
+
+	end 
+
+})
+
+--[[
+
+Name = - The name of the button.
+
+Callback = - The function of the button.
+
+]]
+
+yTab:AddButton({
+
+	Name = "🕊🚗سيارة طيران",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
+
+	end 
+
+})
+
+--[[
+
+Name = - The name of the button.
+
+Callback = - The function of the button.
+
+]]
+
+yTab:AddButton({
+
+	Name = "👀منظار",
+
+	Callback = function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/8T0STS4f'))()
+
+	end 
+
+})
+
+--[[
+
+Name = - The name of the button.
+
+Callback = - The function of the button.
+
+]]
+
+local bTab = Window:MakeTab({
+
+	Name = "2❤يحبهم قلبك اللي من",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+--[[
+
+Name = - The name of the tab.
+
+Icon = - The icon of the tab.
+
+PremiumOnly = - Makes the tab accessible to Sirus Premium users only.
+
+]]
+
+local aTab = Window:MakeTab({
+
+	Name = "😂المطور عشوائيه",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+--[[
+
+Name = - The name of the tab.
+
+Icon = - The icon of the tab.
+
+PremiumOnly = - Makes the tab accessible to Sirus Premium users only.
+
+]]
+
+local fTab = Window:MakeTab({
+
+	Name = "💔🙂اقولك اعرف لو انا",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+--[[
+
+Name = - The name of the tab.
+
+Icon = - The icon of the tab.
+
+PremiumOnly = - Makes the tab accessible to Sirus Premium users only.
+
+]]
+
+yTab:AddButton({
+
+	Name = "👀اماكن كشف",
+
+	Callback = function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP'))()
+
+	end 
+
+})
+
+--[[
+
+Name = - The name of the button.
+
+Callback = - The function of the button.
+
+]]
+
+yTab:AddButton({
+
+	Name = "👀كاميرا",
+
+	Callback = function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/CCTV%20Camera'))()
+
+	end 
+
+})
+
+--[[
+
+Name = - The name of the button.
+
+Callback = - The function of the button.
+
+]]
+
+bTab:AddButton({
+
+	Name = "👻اختفاء",
+
+	Callback = function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+
+	end 
+
+})
+
+--[[
+
+Name = - The name of the button.
+
+Callback = - The function of the button.
+
+]]
+
+bTab:AddButton({
+
+	Name = "Arceus X v3💫",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+
+	end 
+
+})
+
+--[[
+
+Name = - The name of the button.
+
+Callback = - The function of the button.
+
+]]
+
+bTab:AddButton({
+
+	Name = "🧍شقلبه",
+
+	Callback = function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/yjxXnxbS'))()
+
+	end 
+
+})
+
+--[[
+
+Name = - The name of the button.
+
+Callback = - The function of the button.
+
+]]
+
+aTab:AddButton({
+
+	Name = "🍓فروت بلوكس",
+
+	Callback = function()
+
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+aTab:AddButton({
+
+	Name = "mm2🔪",
+
+	Callback = function()
+
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+aTab:AddButton({
+
+	Name = "💃رقصات",
+
+	Callback = function()
+
+  loadstring(game:HttpGet(('https://pastebin.com/raw/iQuYyqEK'),true))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+bTab:AddButton({
+
+	Name = "⌨كيبورد",
+
+	Callback = function()
+
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+bTab:AddButton({
+
+	Name = "💻كتابه",
+
+	Callback = function()
+
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/omegachadgaming/mongus/main/main.lua", true))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+bTab:AddButton({
+
+	Name = "🚶‍♂️مشيات",
+
+	Callback = function()
+
+  loadstring(game:HttpGet(('https://pastebin.com/raw/5nZ6Ne1q'),true))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+local vTab = Window:MakeTab({
+
+	Name = "👤المطور",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+--[[
+
+Name = <string> - The name of the tab.
+
+Icon = <string> - The icon of the tab.
+
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+
+]]
+
+aTab:AddButton({
+
+	Name = "💀تحولات سكربت",
+
+	Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+yTab:AddButton({
+
+	Name = "👻جدران اختراق",
+
+	Callback = function()
+
+ loadstring(game:HttpGet(('https://pastebin.com/raw/pKV2Ys4E'),true))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+setclipboard("https://t.me/HSKVEO")
+
+OrionLib:MakeNotification({
+
+	Name = "!تليجرام المطور قناه في اشترك",
+
+	Content = "الرابط نسخ تم",
+
+	Image = "rbxassetid://4483345998",
+
+	Time = 12
+
+	
+
+})
+
+--[[
+
+Title = <string> - The title of the notification.
+
+Content = <string> - The content of the notification.
+
+Image = <string> - The icon of the notification.
+
+Time = <number> - The duration of the notfication.
+
+]]
+
+bTab:AddButton({
+
+	Name = "R6🧍",
+
+	Callback = function()
+
+ loadstring(game:HttpGet(('https://pastebin.com/raw/Nr3WpZB3'),true))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+bTab:AddButton({
+
+	Name = "👕البيوت ماب اللبس نجمه",
+
+	Callback = function()
+
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/IceMael7/AvatarUnlocker/main/IceHub'))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+bTab:AddButton({
+
+	Name = "👣نهائي لا قفز",
+
+	Callback = function()
+
+ loadstring(game:HttpGet('https://pastebin.com/raw/qhBY6frK'))();
+
+  	end   
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+bTab:AddButton({
+
+	Name = "🏃الهواء علي مشي",
+
+	Callback = function()
+
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Float'))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+aTab:AddButton({
+
+	Name = "🤖ادمن",
+
+	Callback = function()
+
+  loadstring(game:HttpGet("https://pastebin.com/raw/Caniwq2N",true))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+fTab:AddButton({
+
+	Name = "🕷الجدران علي مشي",
+
+	Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/walkonwalls/main/main"))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+fTab:AddButton({
+
+	Name = "👀الماب مراقبه",
+
+	Callback = function()
+
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Break%20Camera'))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+vTab:AddButton({
+
+	Name = "👤المطور تليجرام يوزر نسخ",
+
+	Callback = function()
+
+  setclipboard("@Y_L_PW")
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+vTab:AddButton({
+
+	Name = "👤روبلوكس في المطور اسم نسخ",
+
+	Callback = function()
+
+  setclipboard("Hi_New00")
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+fTab:AddButton({
+
+	Name = "⌨سريع كتابه نسخ",
+
+	Callback = function()
+
+ loadstring(game:HttpGet('https://github.com/Ndora1/Ndora1/raw/main/SPAM'))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+vTab:AddButton({
+
+	Name = "👤المطور لقتل هنا اضغط",
+
+	Callback = function()
+
+local args = {
+
+    [1] = "\240\159\146\148\240\159\153\130\216\170\217\130\216\170\217\132\217\134\217\138 \216\170\216\177\217\138\216\175",
+
+    [2] = "All"
+
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+vTab:AddButton({
+
+	Name = "🔪تضغط لا",
+
+	Callback = function()
+
+local args = {
+
+    [1] = "\240\159\153\131\216\170\216\182\216\186\216\183 \217\132\216\167 \217\133\217\131\216\170\217\136\216\168 \216\170\216\177\216\167",
+
+    [2] = "All"
+
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+fTab:AddButton({
+
+	Name = "🔒شاشه قفل",
+
+	Callback = function()
+
+ loadstring(game:HttpGet("https://pastebin.com/raw/P4X1WsAY"))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+vTab:AddButton({
+
+	Name = "👤المطور جنسيه",
+
+	Callback = function()
+
+local args = {
+
+    [1] = "\240\159\135\170\240\159\135\172\217\133\216\181\216\177\217\138",
+
+    [2] = "All"
+
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+fTab:AddButton({
+
+	Name = "👾مزيف مشي لاق",
+
+	Callback = function()
+
+ loadstring(game:HttpGet('https://pastebin.com/raw/VM3b0Thg'))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+fTab:AddButton({
+
+	Name = "🤸‍♂️للناس تظهر حركات",
+
+	Callback = function()
+
+ loadstring(game:HttpGet("https://pastebin.com/raw/m8QEe67e"))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
+
+fTab:AddButton({
+
+	Name = "🛸المابات اغلبيه بالاشياء تحكم اداه",
+
+	Callback = function()
+
+  loadstring(game:HttpGet("https://pastebin.com/raw/k2V5DS4X"))()
+
+  	end    
+
+})
+
+--[[
+
+Name = <string> - The name of the button.
+
+Callback = <function> - The function of the button.
+
+]]
